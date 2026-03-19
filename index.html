@@ -4,26 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <img src="./images/logo.jpg" alt="vushyvanka" width="44" />
-      <nav>
-        <ul>
-          <li><a href="">images</a></li>
-          <li><a href="">Our collection </a></li>
-          <li><a href="">CUSTOMER ORDER</a></li>
-          <li><a href="">Testimonials</a></li>
+    <header class="main-header">
+      <a href="./index.html"
+        ><img
+          class="header-logo"
+          src="./images/logo.jpg"
+          alt="vushyvanka"
+          width="44"
+          height="39"
+      /></a>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-intem">
+            <a class="header-links" href="">images</a>
+          </li>
+          <li class="header-intem">
+            <a class="header-links" href="">Our collection </a>
+          </li>
+          <li class="header-intem">
+            <a class="header-links" href="">CUSTOMER ORDER</a>
+          </li>
+          <li class="header-intem">
+            <a class="header-links" href="">Testimonials</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+      <address class="header-address">
+        <ul class="header-address-list">
+          <li class="header-address-intem">
+            <a class="header-address-links" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="header-address-intem">
+            <a
+              class="header-address-social"
+              href="https://www.instagram.com/"
+              target="_blank"
+              ><img
+                src="./images/instagram.png"
+                alt="instagram"
+                width="44"
+                height="44"
+            /></a>
+          </li>
+          <li class="header-address-intem">
+            <a
+              class="header-address-social"
+              href="https://www.facebook.com/?locale=uk_UA"
+              target="_blank"
+              ><img
+                src="./images/facebook.png"
+                alt="facebook"
+                width="44"
+                height="44"
+            /></a>
+          </li>
         </ul>
       </address>
     </header>

@@ -1,0 +1,59 @@
+/* second-family: "DM Sans",
+sans-serif; */
+
+body{
+font-family: "Manrope", sans-serif;
+color: #fcf9f9;
+background-color: #1c2225;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.header-logo{
+    margin-top: 24.5px;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+
+.header-links{
+    font-size: 14px;
+        line-height: 1.29;
+        text-transform: uppercase;
+        color: #fcf9f9;
+}
+
+.header-links:hover,
+.header-links:focus{
+   color:#404bbf;
+}
+
+.header-address-links{
+    font-size: 14px;
+        line-height: 1.43;
+        text-transform: uppercase;
+        color: #fcf9f9;
+}
+
+.header-address-links:hover,
+.header-address-links:focus{
+    color: #404bbf;
+}
+
+.header-address-social{
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
