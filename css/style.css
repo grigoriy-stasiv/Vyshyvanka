@@ -1,5 +1,7 @@
-/* second-family: "DM Sans",
-sans-serif; */
+
+html {
+    scroll-behavior: smooth;
+}
 
 body{
 font-family: "Manrope", sans-serif;
@@ -12,11 +14,32 @@ a {
     font-style: normal;
 }
 
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+        padding-left: 0;
+} 
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
+.container {
+    max-width: 1240px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+                            /* --------header-------- */
 .header-logo{
     margin-top: 24.5px;
     margin-left: 100px;
@@ -50,6 +73,8 @@ ol {
 .header-address-social{
     border-radius: 8px;
 }
+                                      /* -----------main----------- */
+
 
 
 
