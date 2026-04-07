@@ -132,17 +132,28 @@ margin-left: auto;
         letter-spacing: -0.03em;
         color: #fcf9f9;
 }
+
+.button-img{
+    display: flex;
+}
 .button-order{
     display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 10px;  
+        gap: 10px; 
+        margin-left: 180px; 
         border: 1px solid rgba(252, 249, 249, 0.1);
             border-radius: 15px;
             padding: 14px 39px;
             width: 168px;
             height: 50px;
+            font-weight: 600;
+                font-size: 16px;
+                letter-spacing: -0.04em;
+                text-transform: uppercase;
+                color: #fcf9f9;
+                background-color: transparent;
 }
 
 .sun{
@@ -151,8 +162,11 @@ margin-left: auto;
         justify-content: flex-start;
         flex-direction: column;
         gap: 16px;
+        margin-top: 170px;
+        margin-left: 80px;
         width: 115px;
             height: 111px;
+            
 }
 
 
