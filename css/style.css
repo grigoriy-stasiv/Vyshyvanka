@@ -49,6 +49,7 @@ img {
 padding: 20px 0;
 margin-left: 0;
     margin-right: 60px;
+    border-radius: 50%;
 }
 
 .header-nav{
@@ -71,6 +72,7 @@ display: flex;
         line-height: 1.29;
         text-transform: uppercase;
         color: #fcf9f9;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address-links {
@@ -104,6 +106,7 @@ margin-left: auto;
     width: 193px;
     height: 48px;
     border: 1px solid rgba(252, 249, 249, 0.1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .header-address-social{
@@ -116,22 +119,29 @@ border: 1px solid rgba(252, 249, 249, 0.1);
     width: 44px;
     height: 44px;
     background: rgba(252, 249, 249, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-icon-svg{
-    color: #fcf9f9;
+    fill: #fcf9f9;
 }
 
 
-.header-links .header-tel:hover,
-.header-links .header-tel:focus{
-   border-color:#404bbf;
+.header-links:hover,
+.header-links:focus{
+   
    color:#404bbf;
 }
 
-.header-address-links:hover,
-.header-address-links:focus{
-    color: #404bbf;
+.header-tel:hover,
+.header-tel:focus{
+    border-color: #404bbf;
+}
+
+
+.header-address-social:hover,
+.header-address-social:focus{
+background-color: rgba(253, 9, 9, 0.596);
 }
 
 
@@ -145,7 +155,7 @@ border: 1px solid rgba(252, 249, 249, 0.1);
     display: flex;
     margin-top: 100px;
     margin-bottom: 150px;
-    border-radius: 4px;
+    border-radius: 8px;
     width: 392px;
         height: 545px;
 }
@@ -184,17 +194,67 @@ border: 1px solid rgba(252, 249, 249, 0.1);
                 background-color: transparent;
 }
 
-.sun{
+.button-order:hover,
+.button-order:focus{
+    background-color: rgba(255, 0, 0, 0.507);
+}
+
+.adelina{
     display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 16px;
-        margin-top: 170px;
-        margin-left: 80px;
-        width: 115px;
-            height: 111px;
-            
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+     margin-top: 170px;
+     margin-left: 80px;
+    width: 115px;
+    height: 111px;
+        box-shadow: 0 4px 12px rgba(196, 182, 182, 0.08), 0 1px 4px rgba(9, 146, 238, 0.308);
+}
+
+.adelina-text{
+    font-size: 16px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: rgba(249, 250, 252, 0.4);
+}
+
+/*--------------------------- Abaut-------------------------- */
+
+.about{
+    margin-bottom: 150px;
+}
+
+.container-abaut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title{
+    font-weight: 500;
+        font-size: 44px;
+        line-height: 1.45455;
+        letter-spacing: -0.03em;
+        color: #fcf9f9;
+        margin-bottom: 40px;
+}
+
+.about-text{
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    color: rgba(252, 249, 249, 0.4);
+}
+
+.img-abaut{
+    border-radius: 8px;
+    max-width: 710px;
+    max-height: 545px;
 }
 
 
