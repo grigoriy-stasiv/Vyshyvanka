@@ -222,7 +222,7 @@ background-color: rgba(253, 9, 9, 0.596);
 /*--------------------------- Abaut-------------------------- */
 
 .about{
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 }
 
 .container-abaut{
@@ -258,5 +258,32 @@ background-color: rgba(253, 9, 9, 0.596);
 }
 
 
+/* ----------------------------collection----------------------------------- */
+
+.collection{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 
 
+.collection-title{
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 500;
+        font-size: 44px;
+        line-height: 1.45455;
+        letter-spacing: -0.03em;
+        color: #fcf9f9
+}
+
+.collection-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+    
+}
+
+.collection-intem{
+    width: calc((100% - 20px *2) /3);
+}
