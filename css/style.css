@@ -42,6 +42,8 @@ img {
                             /* --------header-------- */
 
 .main-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #e7e9fc;
     }
 
@@ -261,8 +263,8 @@ background-color: rgba(253, 9, 9, 0.596);
 /* ----------------------------collection----------------------------------- */
 
 .collection{
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 
@@ -287,3 +289,64 @@ background-color: rgba(253, 9, 9, 0.596);
 .collection-intem{
     width: calc((100% - 20px *2) /3);
 }
+
+
+
+/* -----------------------------------"bic-foto----------------------------------- */
+
+
+
+/* -------------------------------------order--------------------- */
+
+.order{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+
+.order-img{
+    border-radius: 4px;
+}
+
+.foto-form-title{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.order-title{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.32;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+}
+
+
+.button2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
+    cursor: pointer;
+    background: transparent;
+    font-weight: 600;
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        color: #fcf9f9;
+}
+
+.button-2-position{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
